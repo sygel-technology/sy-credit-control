@@ -11,8 +11,7 @@
     'application': False,
     'installable': True,
     'depends': [
-        'account_invoice_overdue_warn_public',
-        'account_invoice_overdue_warn'
+        'account_invoice_overdue_warn_sale',
     ],
     'data': [
         'views/sale_order_views.xml'
