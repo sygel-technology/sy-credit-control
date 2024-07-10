@@ -1,8 +1,8 @@
 
 <!-- /!\ Non OCA Context : Set here the badge of your runbot / runboat instance. -->
-[![Pre-commit Status](https://github.com/sygel-technology/sy-credit-control/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/sygel-technology/sy-credit-control/actions/workflows/pre-commit.yml?query=branch%3A16.0)
-[![Build Status](https://github.com/sygel-technology/sy-credit-control/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/sygel-technology/sy-credit-control/actions/workflows/test.yml?query=branch%3A16.0)
-[![codecov](https://codecov.io/gh/sygel-technology/sy-credit-control/branch/16.0/graph/badge.svg)](https://codecov.io/gh/sygel-technology/sy-credit-control)
+[![Pre-commit Status](https://github.com/sygel-technology/sy-credit-control/actions/workflows/pre-commit.yml/badge.svg?branch=15.0)](https://github.com/sygel-technology/sy-credit-control/actions/workflows/pre-commit.yml?query=branch%3A15.0)
+[![Build Status](https://github.com/sygel-technology/sy-credit-control/actions/workflows/test.yml/badge.svg?branch=15.0)](https://github.com/sygel-technology/sy-credit-control/actions/workflows/test.yml?query=branch%3A15.0)
+[![codecov](https://codecov.io/gh/sygel-technology/sy-credit-control/branch/15.0/graph/badge.svg)](https://codecov.io/gh/sygel-technology/sy-credit-control)
 <!-- /!\ Non OCA Context : Set here the badge of your translation instance. -->
 
 <!-- /!\ do not modify above this line -->
@@ -17,12 +17,7 @@ Odoo modules for the customer credit control
 
 [//]: # (addons)
 
-Available addons
-----------------
-addon | version | maintainers | summary
---- | --- | --- | ---
-[account_invoice_overdue_warn_public](account_invoice_overdue_warn_public/) | 16.0.1.0.0 |  | Show overdue warning to all internal users
-[account_invoice_overdue_warn_sale_public](account_invoice_overdue_warn_sale_public/) | 16.0.1.0.0 |  | Show overdue warning on sale to all internal users
+This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
 
 [//]: # (end addons)
 
