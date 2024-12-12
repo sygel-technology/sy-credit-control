@@ -8,12 +8,12 @@ setuptools.setup(
     description="Meta package for sygel-technology-sy-credit-control Odoo addons",
     version=version,
     install_requires=[
-        'odoo-addon-account_invoice_overdue_warn_public>=16.0dev,<16.1dev',
-        'odoo-addon-account_invoice_overdue_warn_sale_public>=16.0dev,<16.1dev',
+        'odoo-addon-account_invoice_overdue_warn_public>=15.0dev,<15.1dev',
+        'odoo-addon-account_invoice_overdue_warn_sale_public>=15.0dev,<15.1dev',
     ],
     classifiers=[
         'Programming Language :: Python',
         'Framework :: Odoo',
-        'Framework :: Odoo :: 16.0',
+        'Framework :: Odoo :: 15.0',
     ]
 )
