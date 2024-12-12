@@ -1,12 +1,12 @@
 [project]
 name = "odoo-addons-sygel-technology-sy-credit-control"
-version = "16.0.20241105.0"
+version = "17.0.20241212.0"
 dependencies = [
-    "odoo-addon-account_invoice_overdue_warn_public>=16.0dev,<16.1dev",
-    "odoo-addon-account_invoice_overdue_warn_sale_public>=16.0dev,<16.1dev",
+    "odoo-addon-account_invoice_overdue_warn_public>=17.0dev,<17.1dev",
+    "odoo-addon-account_invoice_overdue_warn_sale_public>=17.0dev,<17.1dev",
 ]
 classifiers=[
     "Programming Language :: Python",
     "Framework :: Odoo",
-    "Framework :: Odoo :: 16.0",
+    "Framework :: Odoo :: 17.0",
 ]
