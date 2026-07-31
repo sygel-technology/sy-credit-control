@@ -26,7 +26,7 @@
             <xpath expr="//button[@name='jump_to_overdue_invoices']" position="before">
                 <span
                     groups="!account.group_account_invoice,!account.group_account_readonly"
-                > overdue invoice(s) for a total residual of </span>
+                > overdue invoice(s) </span>
             </xpath>
         </field>
     </record>

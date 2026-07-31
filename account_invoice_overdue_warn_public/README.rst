@@ -17,7 +17,7 @@ Account Invoice Overdue Warn Public
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-sygel--technology%2Fsy--credit--control-lightgray.png?logo=github
-    :target: https://github.com/sygel-technology/sy-credit-control/tree/16.0/account_invoice_overdue_warn_public
+    :target: https://github.com/sygel-technology/sy-credit-control/tree/18.0/account_invoice_overdue_warn_public
     :alt: sygel-technology/sy-credit-control
 
 |badge1| |badge2| |badge3|
@@ -29,13 +29,27 @@ This module allows to show overdue warning to all internal users
 .. contents::
    :local:
 
+Usage
+=====
+
+To use this module:
+
+1. Create and post an unpaid customer invoice with a due date in the
+   past.
+2. Open the related customer.
+3. Log in as an accounting user and verify that the overdue warning is
+   displayed with a link to the overdue invoices.
+4. Log in as an internal user without accounting permissions and verify
+   that the overdue warning is displayed, but the link to the overdue
+   invoices is not available.
+
 Bug Tracker
 ===========
 
 Bugs are tracked on `GitHub Issues <https://github.com/sygel-technology/sy-credit-control/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us to smash it by providing a detailed and welcomed
-`feedback <https://github.com/sygel-technology/sy-credit-control/issues/new?body=module:%20account_invoice_overdue_warn_public%0Aversion:%2016.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
+`feedback <https://github.com/sygel-technology/sy-credit-control/issues/new?body=module:%20account_invoice_overdue_warn_public%0Aversion:%2018.0%0A%0A**Steps%20to%20reproduce**%0A-%20...%0A%0A**Current%20behavior**%0A%0A**Expected%20behavior**>`_.
 
 Do not contact contributors directly about support or help with technical issues.
 
@@ -45,7 +59,7 @@ Credits
 Authors
 -------
 
-* Alberto Martínez
+* Sygel
 
 Contributors
 ------------
@@ -59,6 +73,6 @@ Contributors
 Maintainers
 -----------
 
-This module is part of the `sygel-technology/sy-credit-control <https://github.com/sygel-technology/sy-credit-control/tree/16.0/account_invoice_overdue_warn_public>`_ project on GitHub.
+This module is part of the `sygel-technology/sy-credit-control <https://github.com/sygel-technology/sy-credit-control/tree/18.0/account_invoice_overdue_warn_public>`_ project on GitHub.
 
 You are welcome to contribute.
