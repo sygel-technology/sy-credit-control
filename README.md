@@ -22,6 +22,7 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [account_invoice_overdue_warn_public](account_invoice_overdue_warn_public/) | 18.0.1.0.0 |  | Show overdue warning to all internal users
+[account_invoice_overdue_warn_sale_public](account_invoice_overdue_warn_sale_public/) | 18.0.1.0.0 |  | Show overdue warning on sale to all internal users
 
 [//]: # (end addons)
 
